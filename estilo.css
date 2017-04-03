@@ -1,0 +1,132 @@
+.principal{
+    width: 100%;
+}
+
+#imagen_login{
+    display: flex; 
+    flex-wrap:nowrap;
+    justify-content:space-around;
+
+}
+
+
+.contenedor{
+width: 100%;
+height:500px;
+display: flex;
+flex-wrap:nowrap;
+justify-content:space-around;
+    
+}
+
+#imagen_login1{
+     border: 4px solid black;
+     height:500px;
+     width: 30%;
+     padding:0;
+     background-color: #61b3ca;
+     padding: 0px;
+     margin: 0;
+     justify-content:space-around;
+}
+
+#logo{
+    width: 100%;
+    border: 2px solid black;
+    padding:0px;
+    margin:0;
+}
+
+/*ESTILO DE PERFIL_USUARIO.HTML */
+#encabezado_perfil{
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    background:#cccccc;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.principal{
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+
+/* Menu -perfil de usuario
+
+ nav ul{
+    list-style: none;
+    padding: 0;
+ }
+
+ nav a{
+    text-decoration: none;
+ }
+
+ nav ul ul {
+    display: none;
+ }
+
+ 
+
+nav a:hover{
+    width: 100%;
+       background: rgba(0, 0, 0, .5)
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE  PEQUEÑO*/
+
+@media screen and (max-width: 800px) {
+
+   
+.principal{
+    width: 100%;
+}
+
+#imagen_lateral_izq{
+    display: none;
+} 
+
+#imagen_lateral_der{
+    display: none
+}
+
+#imagen_login{
+    width: 100%;
+}
+#imagen_login1{
+     border: 4px solid black;
+     height:500px;
+     width: 50%;
+     padding:0;
+     background-color: #61b3ca;
+     padding: 0px;
+     margin: 0;
+     justify-content:space-around;
+}
+
+
+
+/*responsive perfil_usuario.html */
+
+
+
+}
+
+
+
+
